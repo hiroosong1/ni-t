@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ni-t · GitHub 学习仓库</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", system-ui, sans-serif;
+    background: #0d1117; color: #c9d1d9; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center; padding: 2rem;
+  }
+  .card {
+    max-width: 640px; text-align: left; line-height: 1.7;
+  }
+  h1 { font-size: 2rem; margin-bottom: .5rem; color: #58a6ff; }
+  .sub { color: #8b949e; margin-bottom: 1.5rem; font-size: .95rem; }
+  p { margin-bottom: 1rem; }
+  a { color: #58a6ff; text-decoration: none; border-bottom: 1px solid #58a6ff33; }
+  a:hover { border-bottom-color: #58a6ff; }
+  ul { list-style: none; padding-left: 0; }
+  li { padding: .3rem 0; color: #b1bac4; }
+  li::before { content: "▸ "; color: #3fb950; font-weight: bold; }
+  .done::before { content: "✓ "; color: #3fb950; }
+  .meta { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #21262d; font-size: .85rem; color: #484f58; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>ni-t</h1>
+    <p class="sub">学习 GitHub 完整流程的练习仓库</p>
+    <p>根据<a href="https://github.com/hiroosong1/ni-t" target="_blank">老王霸 AI Lab</a>的教学,本仓库演示了:</p>
+    <ul>
+      <li class="done">注册账号 & 配置 git 身份</li>
+      <li class="done">git init 本地初始化</li>
+      <li class="done">创建 README.md</li>
+      <li class="done">首次 commit</li>
+      <li class="done">gh repo create 建远端并 push</li>
+      <li class="done">提 Issue (工单系统)</li>
+      <li class="done">GitHub Pages 部署 (你正在看的就是)</li>
+      <li>Fork + Pull Request (下一步练习)</li>
+    </ul>
+    <div class="meta">
+      仓库: <a href="https://github.com/hiroosong1/ni-t" target="_blank">github.com/hiroosong1/ni-t</a><br>
+      Issue #1: <a href="https://github.com/hiroosong1/ni-t/issues/1" target="_blank">学习仓库第一课</a><br>
+      部署方式: GitHub Pages (main 分支 /docs 目录)
+    </div>
+  </div>
+</body>
+</html>
